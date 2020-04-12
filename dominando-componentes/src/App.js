@@ -1,17 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-import MeuComponente from './components/MeuComponente';
-import MeuComponenteClasse from './components/MeuComponenteClasse';
+import './App.css'
+
+import VideoList from './components/VideoList';
+import VideoPlayer from './components/VideoPlayer';
 
 function App() {
   return (
-  <>
-    <MeuComponente />
-    <MeuComponenteClasse />
-  </>
-);
+    <div className="App">
+      <VideoPlayer />
+      <VideoList />
+    </div>
+
+  );
 }
 
 export default App;
