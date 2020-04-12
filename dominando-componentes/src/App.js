@@ -3,9 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 
 import MeuComponente from './components/MeuComponente';
+import MeuComponenteClasse from './components/MeuComponenteClasse';
 
 function App() {
-  return <MeuComponente />
+  return (
+  <>
+    <MeuComponente />
+    <MeuComponenteClasse />
+  </>
+);
 }
 
 export default App;
